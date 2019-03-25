@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #A8d0E6;
+    color: white;
+    margin: 0;
+}
+
+header{
+    background: #374785;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+
+header li{
+    display: block;
+    float: left;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+header a{ 
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1{
+    text-align: center;
+}
+
+#home{
+    height:100vh;
+}
+
+#home h1{
+    font-size: 8rem;
+    position: relative;
+    top: 30vh;
+}
+#home h2{
+    text-align: center;
+    position: relative;
+    top: 37vh;
+}
+
+#about{
+    background: #f76c6c;
+    height: 100vh;
+}
+
+#about h1{
+    position: relative;
+    top: 15vh;
+}
+#about h3{
+    position: relative;
+    top: 20vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#work{
+    height: 300vh;
+    background: #24305e;
+}
+#project{
+    list-style: none;
+    position: relative;
+    top: 40vh;
+}
+#work h1{
+    position: relative;
+    top: 15vh;
+}
+* {box-sizing:border-box}
+.container {
+  width: 80%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  position: relative;
+  top: 30vh;
+  left: 10%;
+}
+.skills {
+  text-align: center;
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
+}
+.java {width: 90%; background-color: #374785;} 
+.c {width: 80%; background-color: #374785;} 
+.sql {width: 73%; background-color: #374785;} 
+.python {width: 70%; background-color: #374785;}
+.html {width: 60%; background-color: #374785;}
+.css {width: 60%; background-color: #374785;}
+.javascript {width: 60%; background-color: #374785;}
+#projects{
+     margin-top: 15%;
+ }
+
+
+#contact{
+    height: 40vh;
+    background: #F8e9a1;
+
+}
+
+#contact h1{
+    position: relative;
+    top: 5vh;
+}
+
+#contact h2{
+    position: relative;
+    top: 7vh;
+    text-align: center;
+}
+
+
+#contact .icons a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 13vh;
+    left: 40%;
+    padding: 1rem;
+}
+
+
+
